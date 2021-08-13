@@ -9,7 +9,7 @@ type InventoryHandler struct {
 	l *log.Logger
 }
 
-func NewInventoryHandler(l *log.Logger) *InventoryHandler {
+func newInventoryHandler(l *log.Logger) *InventoryHandler {
 	return &InventoryHandler{l}
 }
 
